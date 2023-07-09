@@ -11,9 +11,9 @@ body {
     border-radius: 5px;
     background: #FD6E0A;
     color: white;
-    font-weight: 600;
+    font-weight: bold;
     border: none;
-    font-size: 20px;
+    font-size: 15px;
     padding: 15px 35px;
 }
 /* nav related styles */
@@ -87,8 +87,7 @@ nav a{
        text-align: center;
 }
 #what-i-do{
-    margin: 120px 0;
-    padding: 100px;
+    width: 1140px;
     border-radius: 10px;}
 .skill-container{
     display: flex;
@@ -107,4 +106,66 @@ nav a{
 main{
     max-width: 1140px;
     margin: 0 auto;
+}
+.resume-section{
+    max-width: 1140px;
+}
+.btn-download{
+    text-align: center;
+    width: auto;
+    height: auto;
+    
+}
+.btn-download button{
+color:  #FFF;
+text-align: center;
+font-size: 20px;
+    
+}
+/*footer contact part css */
+.contact-container{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    background: #FFF8F3;
+    justify-content: space-around;
+}
+.contact-column{
+    margin-left: 100px;
+    padding: 80px;
+}
+.contact-icon i{
+    font-size: 20px;
+    color: #FD6E0A;
+    margin-right: 10px;
+}
+.contact-container{
+    display: flex;
+}
+.contact-form input{
+    width: 250px;
+    height: 20px;
+    border: none;
+    margin-bottom: 8px;
+    box-shadow:5px 5px 50px #3c37333e;
+    padding: 10px;
+    border-radius: 5px;
+}
+#contact-msg{
+    width: 250px;
+    height: 150px;
+    border: none;
+    margin-bottom: 8px;
+    box-shadow:5px 10px 50px #3c37333e;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+}
+::placeholder {
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.4;
+    font-weight: 200;
+    color: #FD6E0A;
 }
